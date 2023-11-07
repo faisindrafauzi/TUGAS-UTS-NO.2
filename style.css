@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('resep-nasi-lengko-khas-cirebon.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 10;
+    padding: 10;
+    color: #ffffff;
+    text-align: center;
+}
+.container {
+    background-color: rgb(45, 168, 72);
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.685);
+}
+h1 {
+    font-size: 20px;
+    color: rgba(238, 238, 238, 0.63)
+}
+p {
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #c58282;
+    border-radius: 4px;
+}
+button {
+    background-color: #463838;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #b30000;
+}
+#hasilBeratBadan {
+    font-size: 15px;
+    margin-top: 10px;
+}
